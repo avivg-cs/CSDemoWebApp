@@ -24,9 +24,14 @@ class CSDemoWebAppTests(unittest.TestCase):
         self.assertIn("Home", self.driver.title)
         self.assertIn("CSDemoWebApp", self.driver.title)
         
-    def test_main_page_title(self):
+    def test_about_page_title(self):
         self.driver.get("localhost:11975/About")
         self.assertIn("About", self.driver.title)
+        self.assertIn("CSDemoWebApp", self.driver.title)
+    
+    def test_contact_page_title(self):
+        self.driver.get("localhost:11975/Contact")
+        self.assertIn("Contact", self.driver.title)
         self.assertIn("CSDemoWebApp", self.driver.title)
     
     def test_addition(self):
