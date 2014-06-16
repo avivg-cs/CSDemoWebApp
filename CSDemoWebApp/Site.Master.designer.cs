@@ -13,6 +13,33 @@ namespace CSDemoWebApp {
     public partial class SiteMaster {
         
         /// <summary>
+        /// go_home control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor go_home;
+        
+        /// <summary>
+        /// go_about control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor go_about;
+        
+        /// <summary>
+        /// go_contact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor go_contact;
+        
+        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>
